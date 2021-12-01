@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../project1"
+		}
+	],
+	"settings": {
+		"liveSassCompile.settings.formats": [
+			{
+				"format": "compressed",
+				"extensionName": ".min.css",
+				"savePath": "/css"
+			}
+		],
+		"liveServer.settings.multiRootWorkspaceName": "scss_project-6b3d11aeb911af0f633ab5d17e1d19b0fe20636f"
+	}
+}

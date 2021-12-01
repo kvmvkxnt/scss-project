@@ -1,0 +1,37 @@
+.commitent {
+    margin-bottom: 168px;
+
+    .container {
+        height: 520px;
+        width: 1110px;
+        display: flex;
+        flex-wrap: wrap;
+        /* column-gap: 125px; */
+        justify-content: space-between;
+
+        .commitent__text {
+            margin: auto 0;
+
+            .commitent__title {
+                font-family: 'Fraunces', serif;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 40px; 
+                color: #333D4B;    
+            }
+            
+            .commitent__p {
+                width: 540px;
+                height: 260px;
+                font-family: 'Barlow', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 26px;
+                color: #333D4B;
+                mix-blend-mode: normal;
+                opacity: 0.8;
+            }
+        }
+    }
+}

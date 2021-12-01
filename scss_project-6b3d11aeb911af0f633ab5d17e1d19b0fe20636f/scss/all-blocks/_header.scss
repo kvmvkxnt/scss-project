@@ -1,0 +1,15 @@
+@import './nav';
+
+.header {
+    .container {
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	    padding: 44px 20px;
+    }
+}
+
+.logo-link__image {
+    width: 236px;
+    height: 26px;
+}
