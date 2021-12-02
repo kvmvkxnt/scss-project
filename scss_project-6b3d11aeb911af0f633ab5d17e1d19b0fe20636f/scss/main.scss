@@ -36,5 +36,13 @@
 .biggest-part {
 	.container {
 		display: flex;
+		padding: 0 105px;
+		justify-content: space-between;
 	}
+}
+
+.selections {
+	// margin-left: 125px;
+	margin-top: 0;
+	width: 730px;
 }

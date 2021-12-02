@@ -1,4 +1,6 @@
 .configure__list {
+    position: relative;
+    right: 100px;
     list-style-type: none;
     width: 295px;
     // width: 255px;
@@ -51,8 +53,13 @@
 
             .choice__type {
                 margin-left: 23.5px;
-                margin-right: 32.5px;
+                // margin-right: 32.5px;
             }
+        }
+
+        .list__link--active {
+            color: #333D4B;
+            transition: color 0.3s ease;
         }
     }
 }
