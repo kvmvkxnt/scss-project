@@ -57,6 +57,11 @@
 
                 .block__choice + .configuration__controller {
                     transition: background 0.5s ease;
+
+                    h4, p {
+                        color: black;
+                        transition: color 0.5s ease;
+                    }
                 }
 
                 .block__choice:hover + .configuration__controller {
