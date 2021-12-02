@@ -93,3 +93,44 @@
         }
     }
 }
+
+.result__block {
+    background-color: #2C343E;
+    border-radius: 10px;
+    padding: 27px 64px;
+    margin-bottom: 40px;
+
+    .result__p {
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+
+    .result__title {
+        font-family: 'Fraunces', serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 40px;
+        /* or 167% */
+        
+        
+        color: #FFFFFF;
+
+        span {
+            color: #0E8784;
+        }
+    }
+}
+
+.input-result {
+    position: relative;
+    left: 70%;
+    margin-bottom: 168px;
+}
