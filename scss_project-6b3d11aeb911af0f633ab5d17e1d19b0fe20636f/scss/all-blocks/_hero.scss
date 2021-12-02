@@ -1,11 +1,25 @@
 .hero {
     .container {
         padding: 115px 85px;
-        background-image: url('../img/Bitmap.jpg');
+        background-image: url('../img/2x/first-page.png');
+        // background-repeat: no-repeat;
         background-position: center;
         background-repeat: no-repeat;
         margin-bottom: 136px;
     }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min--moz-device-pixel-ratio: 2),
+        only screen and (-o-min-device-pixel-ratio: 2/1),
+        only screen and (min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx) {
+            .container {
+                background-image: url('../img/2x/first-page@2x.png');
+                width: 1280px;
+            }
+        }
+
 
     
     &__heading {
