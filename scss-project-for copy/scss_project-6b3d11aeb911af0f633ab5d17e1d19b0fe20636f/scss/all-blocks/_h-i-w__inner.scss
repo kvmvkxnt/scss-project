@@ -1,0 +1,139 @@
+.steps {
+	position: relative;
+	display: flex;
+	list-style-type: none;
+	margin-bottom: 64px;
+    right: 38px;
+
+    .step {
+        width: 285px;
+        padding-top: 100px;
+
+        &__heading {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 42px;
+
+            &__count {
+                font-family: 'Fraunces', serif;
+                margin-bottom: 38px;
+                font-weight: 900;
+                font-size: 72px;
+                line-height: 72px;
+                color: #fdd6ba;
+            }
+            
+            &__text {
+                font-family: 'Fraunces' ,serif;
+                font-weight: 900;
+                font-size: 32px;
+                color: #333d4b;
+                width: 255px;
+            }
+        }
+    }
+
+    .step::before {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        display: inline-block;
+        width: 27px;
+        height: 27px;
+        background: #fefcf7;
+        border: 2px solid #0e8784;
+        border-radius: 50%;
+        content: '';
+    }
+
+    .step + .step {
+        margin-left: 95px;
+    }
+    
+}
+
+.steps::before {
+	position: absolute;
+	top: 13px;
+    left: 52px;
+	display: block;
+	width: 763px;
+	height: 1px;
+	background-color: #fdd6ba;
+	content: '';
+}
+
+.headquarters {
+    .steps {
+        position: relative;
+        right: 40px;
+        display: flex;
+        column-gap: 108px;
+
+        .step {
+            padding-top: 0;
+            list-style-type: none;
+
+            &__heading {
+                margin-bottom: 24px;
+                list-style-type: none;
+                width: 272px;
+
+                &__text {
+                    width: 272px;
+                    font-family: 'Fraunces', serif;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 32px;
+                    /* line-height: 36px; */
+                    color: #333D4B;    
+                }
+            }
+
+            &__text {
+                font-family: 'Barlow', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                margin-bottom: 16px;
+                color: #333D4B;
+            }
+        }
+
+        .step::before {
+            position: inherit;
+            height: 0;
+            width: 0;
+            content: none;
+        }
+    }
+
+    .steps::before {
+        position: inherit;
+        width: 0;
+        height: 0;
+        top: 0;
+        content: none;
+    }
+}
+
+.create-plan__steps {
+    .step {
+        margin-bottom: 100px;
+
+        &::before {
+            background: none;
+        }
+
+        &__heading {
+
+            &__text {
+                color: #FEFCF7;    
+            }
+        }
+
+        &__text {
+            color: #FEFCF7;
+        }
+    }
+}
