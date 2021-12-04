@@ -6,19 +6,23 @@
         background-position: center;
         background-repeat: no-repeat;
         margin-bottom: 136px;
+        background-size: 1280px 600px;
+        width: 1280px;
+        height: 600px;
     }
 
-    // @media only screen and (-webkit-min-device-pixel-ratio: 2),
-    //     only screen and (min--moz-device-pixel-ratio: 2),
-    //     only screen and (-o-min-device-pixel-ratio: 2/1),
-    //     only screen and (min-device-pixel-ratio: 2),
-    //     only screen and (min-resolution: 192dpi),
-    //     only screen and (min-resolution: 2dppx) {
-    //         .container {
-    //             background-image: url('../img/2x/first-page@2x.png');
-    //             width: 1280px;
-    //         }
-    //     }
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min--moz-device-pixel-ratio: 2),
+        only screen and (-o-min-device-pixel-ratio: 2/1),
+        only screen and (min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx) {
+            .container {
+                background-image: url('../img/2x/first-page@2x.png');
+                // background-position: ;
+                background-size: 1280px 600px;
+            }
+        }
 
 
     
@@ -46,12 +50,17 @@
     }
 
     .special__hero-container {
+        padding: 0;
         padding: 137px 85px;
         margin-bottom: 168px;
-        background-image: url('../img/about-first.png');
+        background-image: url('../img/2x/about-us.png');
+        background-size: 1280px 450px;
+        // width: 1280px;
+        // height: 450px;
         /* height: 450px; */
 
         .hero__heading {
+            // padding-top: 137px;
             font-size: 40px;
             margin-bottom: 24px;
         }
@@ -61,6 +70,19 @@
             font-weight: normal;
         }
     }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min--moz-device-pixel-ratio: 2),
+        only screen and (-o-min-device-pixel-ratio: 2/1),
+        only screen and (min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx) {
+            .special__hero-container {
+                background-image: url('../img/2x/about-us@2x.png');
+                // background-position: ;
+                background-size: 1280px 450px;
+            }
+        }
 
     .create-plan__container {
         padding: 134px 85px;
